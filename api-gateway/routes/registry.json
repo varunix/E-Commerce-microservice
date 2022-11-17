@@ -1,0 +1,16 @@
+{
+  "services": {
+    "product": {
+      "apiName": "product",
+      "host": "http://localhost/",
+      "port": 8082,
+      "url": "http://localhost:8082/"
+    },
+    "order": {
+      "apiName": "order",
+      "host": "http://localhost",
+      "port": 8081,
+      "url": "http://localhost:8081/"
+    }
+  }
+}

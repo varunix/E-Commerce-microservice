@@ -6,4 +6,4 @@ const db = mongoose.connection;
 
 db.on('error', console.error.bind(console, "Error connecting to mongodb"));
 
-db.once('open', console.log.bind(console, "Connected to DB :: MongoDB"));
+db.once('open', console.log.bind(console, "Authenticated service connected to DB :: MongoDB"));
